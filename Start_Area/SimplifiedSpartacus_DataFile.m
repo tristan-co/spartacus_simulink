@@ -304,10 +304,10 @@ smiData.RevoluteJoint(1).ID = '[Bearing Housing-1:-:LongStick-1]';
 
 smiData.RevoluteJoint(2).Rz.Pos = 89.059572312537384;  % deg
 smiData.RevoluteJoint(2).ID = '[LongStick-1:-:Bearing Housing-2]';
-%%
+
 smiData.RevoluteJoint(3).Rz.Pos = 91.929053936470822;  % deg
 smiData.RevoluteJoint(3).ID = '[ShortStick-1:-:Bearing Housing-1]';
-%%
+
 smiData.RevoluteJoint(4).Rz.Pos = 155.33170201926109;  % deg
 smiData.RevoluteJoint(4).ID = '[Arm+Pin_SIMPLIFIED-1:-:ShortStick-1]';
 
@@ -322,7 +322,7 @@ smiData.RevoluteJoint(7).ID = '[Chassis_SIMPLIFIED-1:-:Wheel+Hub+ShortAxle_SIMPL
 
 smiData.RevoluteJoint(8).Rz.Pos = -23.400540175938456;  % deg
 smiData.RevoluteJoint(8).ID = '[Chassis_SIMPLIFIED-1:-:Wheel+Hub+ShortAxle_SIMPLIFIED-2]';
-%%
+
 smiData.RevoluteJoint(9).Rz.Pos = 89.115468795930141;  % deg
 smiData.RevoluteJoint(9).ID = '[Bearing Housing-1:-:Chassis_SIMPLIFIED-1]';
 
