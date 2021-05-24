@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="05/18/21||23:48:03" using="Simscape Multibody Link Version 7.2" from="SolidWorks 28.3.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="SimplifiedSpartacus" uid="SimplifiedSpartacus" version="229">
+<AssemblyFile name="SimplifiedSpartacus.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="Wheel+Hub+LongAxle_SIMPLIFIED-2" uid="Wheel+Hub+LongAxle_SIMPLIFIED-2" entityUid="Wheel+Hub+LongAxle_SIMPLIFIED*:*Default">
+<Transform>
+<Rotation>0.97518608459140876 0.0068544048505830343 0.22128063076876403 0.10456110043586093 -0.89527512542066201 -0.43306977045120532 0.19513860892944682 0.44546096005953445 -0.87377654830506779</Rotation>
+<Translation>0.079769303139156991 -0.066111078412528959 -0.042551334683012906</Translation>
+</Transform>
+</Instance>
+<Instance name="Wheel+Hub+LongAxle_SIMPLIFIED-1" uid="Wheel+Hub+LongAxle_SIMPLIFIED-1" entityUid="Wheel+Hub+LongAxle_SIMPLIFIED*:*Default">
+<Transform>
+<Rotation>-0.96993246702513447 -0.012815218402011032 -0.24303658076068499 0.19483268994318848 0.55755102769726006 -0.80695543522751645 0.14584660551427855 -0.83004374685376536 -0.53829002031332929</Rotation>
+<Translation>0.008451070066293016 -0.055992340519129262 -0.052310812365469549</Translation>
+</Transform>
+</Instance>
+<Instance name="Bearing Housing-1" uid="Bearing Housing-1" entityUid="Bearing Housing*:*Default">
+<Transform>
+<Rotation>0.015437368629285308 4.6788959895609037e-16 -0.99988083672495898 -7.0181494117455125e-15 1 3.5959068939579562e-16 0.99988083672495898 7.0117619720490203e-15 0.015437368629285308</Rotation>
+<Translation>-0.018012209710500982 0.045916084980533754 0.074379233161547001</Translation>
+</Transform>
+</Instance>
+<Instance name="Wheel+Hub+ShortAxle_SIMPLIFIED-1" uid="Wheel+Hub+ShortAxle_SIMPLIFIED-1" entityUid="Wheel+Hub+ShortAxle_SIMPLIFIED*:*Default">
+<Transform>
+<Rotation>-1 1.934672169399341e-16 -1.2590588193289318e-16 1.9346721693993412e-16 0.40496474588199827 -0.9143322998739184 -1.259058819328933e-16 -0.9143322998739184 -0.40496474588199827</Rotation>
+<Translation>0.045987790289498516 0.052218500530449297 0.1520118468334867</Translation>
+</Transform>
+</Instance>
+<Instance name="Wheel+Hub+ShortAxle_SIMPLIFIED-2" uid="Wheel+Hub+ShortAxle_SIMPLIFIED-2" entityUid="Wheel+Hub+ShortAxle_SIMPLIFIED*:*Default">
+<Transform>
+<Rotation>1 -1.254802123463285e-16 0 1.3726562384271399e-16 0.91775088139298333 -0.39715654306885378 0 0.39715654306885378 0.91775088139298333</Rotation>
+<Translation>0.045987790289498495 0.085107047143857598 0.23612676133113944</Translation>
+</Transform>
+</Instance>
+<Instance name="LongStick-1" uid="LongStick-1" entityUid="LongStick*:*Default">
+<Transform>
+<Rotation>0.99999947206452311 -1.2767129887404263e-16 -0.0010275556797671602 1.1991423728933249e-16 1 -7.549104193991635e-15 0.0010275556797671602 7.5489769899961011e-15 0.99999947206452311</Rotation>
+<Translation>0.046288310648540679 0.048416084980533486 0.093876813343952273</Translation>
+</Transform>
+</Instance>
+<Instance name="Bearing Housing-2" uid="Bearing Housing-2" entityUid="Bearing Housing*:*Default">
+<Transform>
+<Rotation>0.015385396617240673 -4.9806107171031745e-16 -0.99988163778065786 -7.6433964132506246e-15 1 -6.1573063627559995e-16 0.99988163778065786 7.651964983936328e-15 0.015385396617240673</Rotation>
+<Translation>0.10998779028949789 0.045916084980533699 0.074379233161547917</Translation>
+</Transform>
+</Instance>
+<Instance name="Arm+Pin_SIMPLIFIED-1" uid="Arm+Pin_SIMPLIFIED-1" entityUid="Arm+Pin_SIMPLIFIED*:*Default">
+<Transform>
+<Rotation>-0.92813077732720795 0 0.37225429504304308 2.6914339703404855e-15 1 6.7616349384764296e-15 -0.37225429504304308 7.2775793467349334e-15 -0.92813077732720795</Rotation>
+<Translation>0.028621890750868587 0.013832546942751239 0.1107669459414509</Translation>
+</Transform>
+</Instance>
+<Instance name="ShortStick-1" uid="ShortStick-1" entityUid="ShortStick*:*Half">
+<Transform>
+<Rotation>0.99879452671984914 5.3051007189568009e-16 0.049086590780712203 -1.9115389116353919e-16 1 -6.9181136077955235e-15 -0.049086590780712203 6.9003909138605929e-15 0.99879452671984914</Rotation>
+<Translation>0.038216967234059922 0.041416084980533695 0.090993463505358307</Translation>
+</Transform>
+</Instance>
+<Instance name="Chassis_SIMPLIFIED-1" uid="Chassis_SIMPLIFIED-1" grounded="true" entityUid="Chassis_SIMPLIFIED*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.045987790289498461 0.095409509526096128 0.21837923316154673</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Concentric name="Concentric1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Arm+Pin_SIMPLIFIED-1</Uid>
+</InstancePath>
+<Position>0.0093601489246649891 0.015276962583345646 0.041915814118876578</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Chassis_SIMPLIFIED-1</Uid>
+</InstancePath>
+<Position>-0.010450000000000001 -0.06959999999999901 -0.15000000000000049</Position>
+<Axis>0 1 6.9829626776862667e-15</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Chassis_SIMPLIFIED-1</Uid>
+</InstancePath>
+<Position>-0.010450000000000001 -0.06959999999999901 -0.15000000000000049</Position>
+<Axis>0 -1 -6.9829626776862667e-15</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Arm+Pin_SIMPLIFIED-1</Uid>
+</InstancePath>
+<Position>0.009360148924664996 0.011976962583345645 0.041915814118876585</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric2">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Arm+Pin_SIMPLIFIED-1</Uid>
+</InstancePath>
+<Position>0.009360148924664996 0.031976962583345647 0.016915814118876576</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>ShortStick-1</Uid>
+</InstancePath>
+<Position>-0.01199999999999999 0.0020000000000000018 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric3">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>ShortStick-1</Uid>
+</InstancePath>
+<Position>-0.060000000000000012 0.0019999999999999948 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Bearing Housing-1</Uid>
+</InstancePath>
+<Position>0.019500000000000003 -0.0074999999999999928 0.0040000000000000001</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident5">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>ShortStick-1</Uid>
+</InstancePath>
+<Position>0.061000000000000033 0.0020000000000000087 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Bearing Housing-1</Uid>
+</InstancePath>
+<Position>0.023500000000000021 -0.0025000000000000022 0.0069999999999999993</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric4">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Bearing Housing-1</Uid>
+</InstancePath>
+<Position>0 0.022499999999999999 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Chassis_SIMPLIFIED-1</Uid>
+</InstancePath>
+<Position>-0.063999999999999932 1.0000000000426335e-06 -0.14399999999999999</Position>
+<Axis>0 -1 -3.2136312862133263e-16</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric5">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Bearing Housing-1</Uid>
+</InstancePath>
+<Position>0 0 -0.010000000000000007</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Wheel+Hub+LongAxle_SIMPLIFIED-1</Uid>
+</InstancePath>
+<Position>0.096894793793387154 -0.048000000000000001 -0.13605782515352771</Position>
+<Axis>-0.97206837450844863 -4.145989107584569e-16 -0.23469783825272542</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Wheel+Hub+LongAxle_SIMPLIFIED-1</Uid>
+</InstancePath>
+<Position>0.048291375067964715 -0.048000000000000015 -0.14779271706616398</Position>
+<Axis>-0.97206837450844863 -4.145989107584569e-16 -0.23469783825272542</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Bearing Housing-1</Uid>
+</InstancePath>
+<Position>0 0 -0.010000000000000007</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Distance>
+<Coincident name="Coincident7">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Bearing Housing-1</Uid>
+</InstancePath>
+<Position>0.023500000000000021 0.0024999999999999953 -0.0070000000000000062</Position>
+<Axis>0 1 -5.0596101382656926e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>LongStick-1</Uid>
+</InstancePath>
+<Position>0.060999999999999971 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric6">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Bearing Housing-1</Uid>
+</InstancePath>
+<Position>0.019500000000000003 -0.0074999999999999997 -0.0040000000000000053</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>LongStick-1</Uid>
+</InstancePath>
+<Position>-0.059999999999999984 0.0020000000000000018 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric7">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Chassis_SIMPLIFIED-1</Uid>
+</InstancePath>
+<Position>0.064000000000000057 1.0000000000565112e-06 -0.14399999999999999</Position>
+<Axis>0 -1 -3.2136312862133263e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Bearing Housing-2</Uid>
+</InstancePath>
+<Position>0 0.022499999999999999 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident8">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>LongStick-1</Uid>
+</InstancePath>
+<Position>0.060999999999999971 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Bearing Housing-2</Uid>
+</InstancePath>
+<Position>0.023500000000000021 0.0025000000000000022 -0.0070000000000000201</Position>
+<Axis>0 1 -5.0596101382656897e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric8">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>LongStick-1</Uid>
+</InstancePath>
+<Position>0.060000000000000012 0.0020000000000000018 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Bearing Housing-2</Uid>
+</InstancePath>
+<Position>0.019500000000000017 -0.0074999999999999997 0.0039999999999999897</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric9">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Wheel+Hub+LongAxle_SIMPLIFIED-2</Uid>
+</InstancePath>
+<Position>0.096894793793387154 -0.048000000000000015 -0.13605782515352777</Position>
+<Axis>-0.97206837450844885 -4.5102810375396984e-16 -0.23469783825272544</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Bearing Housing-2</Uid>
+</InstancePath>
+<Position>0 0 -0.010000000000000009</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Wheel+Hub+LongAxle_SIMPLIFIED-2</Uid>
+</InstancePath>
+<Position>0.048291375067964715 -0.048000000000000029 -0.14779271706616404</Position>
+<Axis>-0.97206837450844885 -4.5102810375396984e-16 -0.23469783825272544</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Bearing Housing-2</Uid>
+</InstancePath>
+<Position>0 0 0.009999999999999995</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Concentric10">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Chassis_SIMPLIFIED-1</Uid>
+</InstancePath>
+<Position>0.080500000000000016 -0.048000000000000015 -0.015999999999999959</Position>
+<Axis>-1 0 -2.7755575615628918e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Wheel+Hub+ShortAxle_SIMPLIFIED-2</Uid>
+</InstancePath>
+<Position>0.097839999999999983 -0.047999999999999973 -0.015999999999999986</Position>
+<Axis>-1 0 -2.7749396969719049e-16</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident10">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Chassis_SIMPLIFIED-1</Uid>
+</InstancePath>
+<Position>0.078000000000000014 -0.048000000000000015 -0.015999999999999959</Position>
+<Axis>1 0 2.5552136926676883e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Wheel+Hub+ShortAxle_SIMPLIFIED-2</Uid>
+</InstancePath>
+<Position>0.078 -0.047999999999999959 -0.015999999999999986</Position>
+<Axis>-1 0 -2.7749396969719049e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric11">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Chassis_SIMPLIFIED-1</Uid>
+</InstancePath>
+<Position>-0.080499999999999988 -0.048000000000000008 -0.015999999999999959</Position>
+<Axis>1 -2.1569081305868334e-16 2.05190764937902e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Wheel+Hub+ShortAxle_SIMPLIFIED-1</Uid>
+</InstancePath>
+<Position>0.09784000000000001 -0.048000000000000015 -0.015999999999999973</Position>
+<Axis>-1 0 -2.7749396969719049e-16</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident11">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Chassis_SIMPLIFIED-1</Uid>
+</InstancePath>
+<Position>-0.077999999999999986 -0.048000000000000008 -0.015999999999999959</Position>
+<Axis>-1 2.1569081305868336e-16 -1.8315637804838165e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Wheel+Hub+ShortAxle_SIMPLIFIED-1</Uid>
+</InstancePath>
+<Position>0.078000000000000014 -0.048000000000000015 -0.015999999999999973</Position>
+<Axis>-1 0 -2.7749396969719049e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Distance name="Distance3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Arm+Pin_SIMPLIFIED-1</Uid>
+</InstancePath>
+<Position>0.009360148924664996 0.031976962583345647 0.016915814118876576</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>ShortStick-1</Uid>
+</InstancePath>
+<Position>0.061000000000000033 0.0020000000000000087 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Angle name="LimitAngle1">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>Arm+Pin_SIMPLIFIED-1</Uid>
+</InstancePath>
+<Position>0.01532919849412015 0.011976962583345649 0.04130717035000421</Position>
+<Axis>-0.10144062814539451 0 -0.99484159490919366</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>Chassis_SIMPLIFIED-1</Uid>
+</InstancePath>
+<Position>0.020450000000000003 -0.061999999999999084 -0.14000000000000046</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Angle>
+</Constraints>
+<Frames>
+</Frames>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="Arm+Pin_SIMPLIFIED" uid="Arm+Pin_SIMPLIFIED*:*Default" version="110">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="Arm+Pin_SIMPLIFIED.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00277281657686714</Mass>
+<CenterOfMass>0.0093601489246649943 0.019131332145226183 0.02211470959559525</CenterOfMass>
+<Inertia>3.2454036101482456e-07 2.2909881401221016e-07 1.1499417644544405e-07 7.9348699360254585e-08 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Arm+Pin_SIMPLIFIED_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+<Frames>
+<Frame name="Coord_Pin" uid="Coord_Pin">
+<Transform>
+<Rotation>1 0 0 0 0 1 0 -1 0</Rotation>
+<Translation>0.009360148924664996 0.011976962583345649 0.016915814118876563</Translation>
+</Transform>
+</Frame>
+</Frames>
+</Part>
+<Part name="Bearing Housing" uid="Bearing Housing*:*Default" version="296">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Bearing Housing.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0054961434668070941</Mass>
+<CenterOfMass>0.0024349915375008911 0.0016069788613770383 2.5819948144402768e-09</CenterOfMass>
+<Inertia>3.5553695263372128e-07 4.104176124917253e-07 4.7964413422374019e-07 -2.2520954000204225e-15 -1.0037802333313203e-13 2.1506312471580244e-08</Inertia>
+</MassProperties>
+<GeometryFile name="Bearing Housing_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="1" g="1" b="1" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+<Frames>
+</Frames>
+</Part>
+<Part name="Chassis_SIMPLIFIED" uid="Chassis_SIMPLIFIED*:*Default" version="155">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Chassis_SIMPLIFIED.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>2.3669899999999999</Mass>
+<CenterOfMass>-2.9737786679477992e-05 -0.025009783444904482 -0.11560998001609292</CenterOfMass>
+<Inertia>0.0059312494393421629 0.0072839634260384927 0.0032024233150073217 0.00082397998164211207 -8.7326419855408608e-07 -7.1769487257772725e-07</Inertia>
+</MassProperties>
+<GeometryFile name="Chassis_SIMPLIFIED_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+<Frames>
+</Frames>
+</Part>
+<Part name="LongStick" uid="LongStick*:*Default" version="198">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="LongStick.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0046128520912330356</Mass>
+<CenterOfMass>0 0.001 0</CenterOfMass>
+<Inertia>2.9937291976876972e-08 6.3685505353460377e-06 6.3416884780966495e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="LongStick_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Specular r="0.44901960784313727" g="0.45882352941176469" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+<Frames>
+</Frames>
+</Part>
+<Part name="ShortStick" uid="ShortStick*:*Half" version="196">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="ShortStick.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.002269342848251598</Mass>
+<CenterOfMass>-0.032602340366370025 0.001 0</CenterOfMass>
+<Inertia>1.4577552133190496e-08 7.7173296979028451e-07 7.5866831288926174e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="ShortStick_Half_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Specular r="0.44901960784313727" g="0.45882352941176469" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+<Frames>
+</Frames>
+</Part>
+<Part name="Wheel+Hub+LongAxle_SIMPLIFIED" uid="Wheel+Hub+LongAxle_SIMPLIFIED*:*Default" version="113">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="Wheel+Hub+LongAxle_SIMPLIFIED.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.087656763335208818</Mass>
+<CenterOfMass>0.09741870949965406 -0.048036747371235936 -0.13596586980416123</CenterOfMass>
+<Inertia>5.1297951665230642e-05 3.3139804411043732e-05 3.4191952741163196e-05 -4.1058927607717424e-08 4.3779084464611158e-06 3.2521242795558149e-09</Inertia>
+</MassProperties>
+<GeometryFile name="Wheel+Hub+LongAxle_SIMPLIFIED_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+<Frames>
+<Frame name="Coord_LongAxle" uid="Coord_LongAxle">
+<Transform>
+<Rotation>0.23469783825272458 -6.6388575965134705e-16 0.97206837450844874 0 1 6.829619984160659e-16 -0.97206837450844896 -1.6028970463701137e-16 0.23469783825272453</Rotation>
+<Translation>0.10887067616733126 -0.048000000000000015 -0.13316634778625416</Translation>
+</Transform>
+</Frame>
+</Frames>
+</Part>
+<Part name="Wheel+Hub+ShortAxle_SIMPLIFIED" uid="Wheel+Hub+ShortAxle_SIMPLIFIED*:*Default" version="137">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="Wheel+Hub+ShortAxle_SIMPLIFIED.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.084681599694035603</Mass>
+<CenterOfMass>0.099616377640221021 -0.048051519370715216 -0.015999251916957981</CenterOfMass>
+<Inertia>5.2347315289313102e-05 2.8998771635069157e-05 2.9079768949635371e-05 -4.0684592018934292e-09 -5.7708976405537774e-10 -1.4940686316319356e-08</Inertia>
+</MassProperties>
+<GeometryFile name="Wheel+Hub+ShortAxle_SIMPLIFIED_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+<Frames>
+<Frame name="Coord_ShortAxle" uid="Coord_ShortAxle">
+<Transform>
+<Rotation>3.4148099920803305e-16 0 1 0 1 0 -1 0 3.4148099920803305e-16</Rotation>
+<Translation>0.11016000000000001 -0.04799999999999998 -0.015999999999999983</Translation>
+</Transform>
+</Frame>
+</Frames>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
